@@ -19,10 +19,15 @@ const Book = () => {
   );
 };
 
-const Image = () => <h2>image placeholder</h2>;
-const Title = () => <h2>Book Title</h2>;
+const Image = () => (
+  <img
+    src="https://images-na.ssl-images-amazon.com/images/I/71jfsEP8G4L._AC_UL254_SR254,254_.jpg"
+    alt="Spooky Cutie"
+  />
+);
+const Title = () => <h2>Spooky Cutie: Coloring Book</h2>;
 const Author = () => {
-  return <h4>Author</h4>;
+  return <h4>Coco Wyo</h4>;
 };
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
